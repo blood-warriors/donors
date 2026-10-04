@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 #hero{
-    width: 540px;
+    width: 320px;
     background: red;
     margin: 0 auto;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     align-items: center;
 }
 #hero .logo{
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
 }
 
 #hero .logo img{
@@ -23,6 +23,6 @@
 #hero .title h1{
     color: #fff;
     font-family: tahoma;
-    margin-left: 20px;
-    font-size: 40px;
+    margin-left: 10px;
+    font-size: 28px;
 }
