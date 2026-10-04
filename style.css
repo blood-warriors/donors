@@ -35,13 +35,49 @@
         font-size: 30px;
         text-shadow: 0px 0px 3px #000;
     }
-    #group p{
+    #group-section p{
         margin-top: 10px;
         padding: 10px;
         text-align: center;
         color: #fff;
-        text-decoration: underline;
+        /* text-decoration: underline; */
+        font-size: 18px;
         background: red;
+    }
+    #group-section .groups{
+        padding: 20px 10px;
+        /* background: yellow; */
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2);
+        justify-content: center;
+        gap: 20px;
+        /* display: flex;
+        flex-direction: column;
+        gap: 10px; */
+
+    }
+    #group-section .groups .group{
+        background: red;
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 60px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: 0 0 5px #000;
+    }
+    #group-section .groups .group-one, 
+                            .group-two, 
+                            .group-three, 
+                            .group-four{
+        display: flex;
+        gap: 20px;
     }
 }
 
