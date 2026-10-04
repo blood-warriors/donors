@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    width: 540px;
+    background: red;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+#hero .logo{
+    height: 80px;
+    width: 80px;
+}
+
+#hero .logo img{
+    width: 100%;
+    border-radius: 50%;
+}
+#hero .title h1{
+    color: #fff;
+    font-family: tahoma;
+    margin-left: 20px;
+    font-size: 40px;
+}
