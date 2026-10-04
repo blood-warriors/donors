@@ -58,7 +58,7 @@
 
     }
     #group-section .groups .group{
-        background: red;
+        /* background: red; */
         padding: 10px;
         height: 150px;
         width: 150px;
@@ -78,6 +78,11 @@
                             .group-four{
         display: flex;
         gap: 20px;
+    }
+    #group-section .groups .group img{
+        width: 100%;
+        box-shadow: 0 0 5px #000;
+        border-radius: 10px;
     }
 }
 
