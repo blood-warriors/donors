@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-#hero{
-    width: 320px;
-    background: red;
-    margin: 0 auto;
-    display: flex;
-    padding: 10px;
-    align-items: center;
+@media (max-width: 420px) {
+    #hero{
+        background: red;
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+    }
 }
+
 #hero .logo{
     height: 60px;
     width: 60px;
@@ -24,5 +26,5 @@
     color: #fff;
     font-family: tahoma;
     margin-left: 10px;
-    font-size: 28px;
+    font-size: 30px;
 }
