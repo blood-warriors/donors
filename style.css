@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 @media (max-width: 420px) {
     marquee{
         color: red;
         padding: 5px 0;
-        font-weight: semi-bold;
+        font-weight: bold;
         font-size: 18px;
         /* text-shadow: 0px 0px 3px #3a3838; */
     }
@@ -92,7 +93,7 @@
         border-radius: 5px;
         position: relative;
         /* border: 1px solid #000000; */
-        box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 2px #000000;
     }
     #members .members .card .top-part{
         display: flex;
@@ -100,13 +101,13 @@
     #members .members .card .top-part .image{
         height: 60px;
         width: 60px;
-        background: yellow;
+        /* background: yellow; */
         border-radius: 5px;
     }
     #members .members .card .top-part .image img{
         width: 100%;
         border-radius: 5px;
-        box-shadow: 0 0 5px #000000;
+        box-shadow: 0 0 2px #000000;
     }
     #members .members .card .top-part .details{
         /* color: #ffffff; */
@@ -116,6 +117,8 @@
     }
     #members .members .card .top-part .details h3{
         font-size: 24px;
+        color: rgb(81, 81, 83);
+        
     }
     #members .members .card .bottom-part{
         margin-top: 10px;
@@ -136,15 +139,30 @@
         flex-direction: column;
         gap: 10px;
     }
-    #members .members .card .links .facebook, .whatsapp{
+    #members .members .card .links .facebook, .whatsapp a{
         width: 40px;
         height: 40px;
         cursor: pointer;
+        text-decoration: none;
     }
     #members .members .card .links .facebook img, .whatsapp img{
         width: 100%;
         border-radius: 5px;
+        box-shadow: 0 0 2px #000000;
 
+    }
+    #members button{
+        /* width: 200px; */
+        background: red;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        font-size: 18px;
+        padding: 7px 40px;
+        color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 0 2px #000000;
+        
     }
 }
 
