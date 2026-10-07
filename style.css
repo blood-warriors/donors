@@ -139,6 +139,7 @@
     #members .members .card .links .facebook, .whatsapp{
         width: 40px;
         height: 40px;
+        cursor: pointer;
     }
     #members .members .card .links .facebook img, .whatsapp img{
         width: 100%;
